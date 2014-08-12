@@ -1,0 +1,9 @@
+---
+- hosts: all
+  sudo: true
+  user: vagrant
+  tasks:
+    - yum: name=unzip
+  roles:
+    - role: consul
+    - role: serf

@@ -1,0 +1,6 @@
+[submodule "roles/consul"]
+	path = roles/consul
+	url = git@github.com:tmtk75/ansible-consul.git
+[submodule "roles/serf"]
+	path = roles/serf
+	url = git@github.com:tmtk75/ansible-serf.git
