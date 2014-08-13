@@ -10,3 +10,6 @@
 [submodule "roles/elasticsearch"]
 	path = roles/elasticsearch
 	url = git@github.com:tmtk75/ansible-elasticsearch.git
+[submodule "roles/td-agent"]
+	path = roles/td-agent
+	url = git@github.com:tmtk75/ansible-td-agent.git

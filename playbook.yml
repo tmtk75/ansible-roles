@@ -10,4 +10,5 @@
     - role: dnsmasq
     - { role: serf, consul_enabled: true }
     - role: elasticsearch
+    - role: td-agent
 
