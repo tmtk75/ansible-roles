@@ -9,4 +9,5 @@
     - { role: consul, server: true, bootstrap: true }
     - role: dnsmasq
     - { role: serf, consul_enabled: true }
+    - role: elasticsearch
 

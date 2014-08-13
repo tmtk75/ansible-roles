@@ -7,3 +7,6 @@
 [submodule "roles/dnsmasq"]
 	path = roles/dnsmasq
 	url = git@github.com:tmtk75/ansible-dnsmasq.git
+[submodule "roles/elasticsearch"]
+	path = roles/elasticsearch
+	url = git@github.com:tmtk75/ansible-elasticsearch.git
