@@ -4,3 +4,6 @@
 [submodule "roles/serf"]
 	path = roles/serf
 	url = git@github.com:tmtk75/ansible-serf.git
+[submodule "roles/dnsmasq"]
+	path = roles/dnsmasq
+	url = git@github.com:tmtk75/ansible-dnsmasq.git

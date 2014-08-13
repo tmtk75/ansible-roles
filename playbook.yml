@@ -3,7 +3,10 @@
   sudo: true
   user: vagrant
   tasks:
+    - yum: name=bind-utils
     - yum: name=unzip
   roles:
-    - role: consul
-    - role: serf
+    - { role: consul, server: true, bootstrap: true }
+    - role: dnsmasq
+    - { role: serf, consul_enabled: true }
+
