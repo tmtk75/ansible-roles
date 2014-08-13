@@ -1,6 +1,6 @@
 
 playbook: ssh-config
-	ansible-playbook -i hosts playbook.yml
+	ansible-playbook -i "default," playbook.yml
 
 ssh-config:
 	vagrant ssh-config | tee ssh-config
